@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.realtime{
+    padding: 0.5vh 11vw;
+    background-color: #233067;
+    color: white;
+    display: flex;
+    align-items: center;
+    height: auto;
+    padding-bottom: 10vh;
+    padding-top: 10vh;
+}
+
+
+.realtime img{
+    border-radius: 10px;
+    margin-right: 4vw;
+    width: 50%;
+    height: 70%;
+}
+
+.realtime h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    text-align: center;
+    font-size: 2.5vw;
+    margin: 2vw;
+}
+
+.realtime p{
+    font-size: 1.25vw;
+    color: lightgray;
+    line-height: 4vh;
+    word-spacing: 0.2vw;
+    font-family: sans-serif;
+}
+
+@media  screen and (max-width :480px) {
+
+    .realtime{
+        padding-top: 1.5vh;
+        padding-bottom: 1.5vh;
+    }
+
+    .realtime h1{
+        font-size: 5vw;
+    }
+
+    .realtime p{
+        line-height: 2.5vh;
+        font-size: 3vw;
+    }
+
+    .realtime img{
+        display: none;
+    }
+}
+
+@media  screen and (max-width :950px) {
+
+    .realtime{
+        padding-top: 1.5vh;
+        padding-bottom: 1.5vh;
+    }
+
+    .realtime h1{
+        font-size: 5vw;
+    }
+
+    .realtime p{
+        line-height: 4vh;
+        font-size: 3vw;
+    }
+
+    .realtime img{
+        display: none;
+    }
+}

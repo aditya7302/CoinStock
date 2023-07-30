@@ -1,0 +1,104 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    padding: 0 2vw;
+    background:linear-gradient(160deg,#0a113b 70%,#2f3c9e);
+    height: auto;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.heading{
+    width: 50%;
+}
+
+.title{
+    text-align: left;
+    padding-top: 10vh;
+    padding-left: 7.5vw;
+}
+
+.title h1{
+    color: white;
+    font-family:  sans-serif;
+    font-weight: 500;
+    font-size: 3.5vw;
+}
+
+.description{
+    padding-top: 2vh;
+    color: lightgray;
+    line-height: 3vh;
+    font-family:  sans-serif;
+    word-spacing: 0.2vw;
+    font-size: 1.25vw;
+}
+
+.button{
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Rubik One', sans-serif;
+    color: black;
+    padding: 1vw 0.5vw;
+    transform: translate(-5%, -10%);
+	vertical-align: middle;
+    transition: all .5s;
+    background-color: #84e4a4;
+    position: relative;
+    box-shadow: 5px 5px 0 #209447;
+
+}
+
+.cover{
+    margin: 2rem 0.6rem;
+}
+
+.button:active{
+    transform: translate(-1px,-2px);
+    transition: all .5s;
+}
+
+
+@media screen and (max-width:480px) {
+
+    .description{
+        display: none;
+    }
+
+    .title h1{
+        color: white;
+        font-family:  sans-serif;
+        font-weight: 500;
+        font-size: 5vw;
+    }
+
+    .image{
+       padding-top: 10vh;
+    }
+
+}
+
+@media screen and (max-width:950px) {
+
+    .description{
+        display: none;
+    }
+
+    .title h1{
+        color: white;
+        font-family:  sans-serif;
+        font-weight: 500;
+        font-size: 5vw;
+    }
+
+    .image{
+       padding-top: 10vh;
+    }
+
+}
