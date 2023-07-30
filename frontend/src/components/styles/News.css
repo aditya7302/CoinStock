@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.news{
+    padding: 0.5vh 11vw;
+    background-color: whitesmoke;
+    color: black;
+    font-family:'Poppins', sans-serif;
+    font-size: 1.5vw;
+    display: flex;
+    align-items: center;
+}
+
+.news h1{
+    margin: 5vh 0;
+}
+
+.news-container{
+    margin: 5vh 11vw;
+    font-family:'Poppins', sans-serif;
+    color: black;
+}
+
+.news-feed{
+    display: flex;
+    height: auto;
+    /* border: 1px solid black; */
+    padding: 0.5vw;
+    margin-bottom: 1vh;
+    background-color: whitesmoke;
+}
+
+.newsimage{
+    height: 100%;
+    width: 100%;
+}
+
+.news-link{
+    margin: 1vw;
+    line-height: 3vh;
+    text-decoration: none;
+}
+
+.newstitle{
+    text-decoration: none;
+    font-size: 1.5vw;
+    color: #2f3c9e;
+}
+
+.bottomsearchtext{
+    font-size: 0.8vw;
+    color: gray;
+}
+
+@media  screen and (max-width :480px) {
+
+    .news h1{
+        font-size: 5vh;
+    }
+
+    .newstitle{
+        font-size: 3.5vw;
+    }
+
+    .bottomsearchtext{
+        font-size: 2.5vw;
+    }
+}
+
+@media screen and (max-width:950px) {
+    .news h1{
+        font-size: 5vh;
+    }
+
+    .newstitle{
+        font-size: 3.5vw;
+    }
+
+    .bottomsearchtext{
+        font-size: 2.5vw;
+    }
+}
